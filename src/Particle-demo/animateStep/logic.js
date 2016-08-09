@@ -76,7 +76,7 @@ var animate = (function(w){
 		osCtx.font="100px 微软雅黑,黑体 bold";
 		osCtx.fillStyle = "#1D181F";
 		osCtx.fillText("WELCOME" , this.osCanvas.width/2 , this.osCanvas.height/2-40);
-		osCtx.fillText("THIS IS FIRST STEP" , this.osCanvas.width/2 , this.osCanvas.height/2+50);
+		osCtx.fillText("TO MY BlOG" , this.osCanvas.width/2 , this.osCanvas.height/2+50);
 		var bigImageData = osCtx.getImageData(0,0,this.osCanvas.width,this.osCanvas.height);
 
 		dots = [];
@@ -189,3 +189,5 @@ var animate = (function(w){
 
 	return new animate();
 })(window)
+
+//haha
